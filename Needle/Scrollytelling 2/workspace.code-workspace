@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "🌵 Needle Engine",
+      "path": "node_modules/@needle-tools/engine",
+      "@needle:managed": true
+    }
+  ],
+  "settings": {
+    "window.title": "Scrollytelling Template",
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/*.meta": true
+    },
+    "html.customData": [
+      "./custom-elements.json"
+    ]
+  }
+}
