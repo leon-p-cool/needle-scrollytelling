@@ -14,13 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scenes:
   - Path: Assets/Samples/Needle Engine/Scrollytelling 2.unity
-    Projects:
-    - ProjectPath: Needle/Scrollytelling 2
+    Projects: []
     BuilderScene: 
   - Path: Assets/Samples/Needle Engine/Scrollytelling.unity
     Projects:
     - ProjectPath: Needle/Scrollytelling
     BuilderScene: 
   Projects:
-  - ProjectPath: Needle/Scrollytelling 2
   - ProjectPath: Needle/Scrollytelling
