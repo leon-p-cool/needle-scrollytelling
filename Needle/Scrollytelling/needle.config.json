@@ -1,5 +1,4 @@
 {
-  "baseUrl": null,
   "buildDirectory": "dist",
   "assetsDirectory": "assets",
   "scriptsDirectory": "src/scripts",

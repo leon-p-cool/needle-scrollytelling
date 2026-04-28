@@ -17,5 +17,10 @@ MonoBehaviour:
     Projects:
     - ProjectPath: Needle/Scrollytelling 2
     BuilderScene: 
+  - Path: Assets/Samples/Needle Engine/Scrollytelling.unity
+    Projects:
+    - ProjectPath: Needle/Scrollytelling
+    BuilderScene: 
   Projects:
   - ProjectPath: Needle/Scrollytelling 2
+  - ProjectPath: Needle/Scrollytelling

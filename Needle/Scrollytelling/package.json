@@ -1,0 +1,25 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build:dev": "tsc && vite build",
+    "build:production": "vite build -- --production",
+    "serve": "vite preview",
+    "gltf:transform": "npm run transform --prefix node_modules/@needle-tools/gltf-build-pipeline"
+  },
+  "dependencies": {
+	  "@needle-tools/engine": "5.0.4",
+	  "three": "npm:@needle-tools/three@0.169.19",
+	  "needle.samples.scrollytelling": "file:../../Library/PackageCache/com.needle.engine-samples@377913b88036/Runtime/Scrollytelling/Needle.Samples.Scrollytelling~"
+	},
+  "devDependencies": {
+	  "@needle-tools/helper": "2.0.0",
+	  "@types/three": "0.169.0",
+	  "@vitejs/plugin-basic-ssl": "^1.0.1",
+	  "typescript": "^5.0.4",
+	  "vite": "<= 4.3.9",
+	  "vite-plugin-compression": "^0.5.1"
+	}
+}
