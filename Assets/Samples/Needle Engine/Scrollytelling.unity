@@ -119,67 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &10144871
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 10144872}
-  - component: {fileID: 10144873}
-  m_Layer: 0
-  m_Name: WebXR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &10144872
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10144871}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1050133064}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &10144873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10144871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf409ffccda34166b926284faafa75c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Needle.Engine.WebXR, Needle.Engine
-  createVRButton: 0
-  createARButton: 1
-  createSendToQuestButton: 0
-  createQRCode: 1
-  usePlacementReticle: 1
-  customARPlacementReticle: {fileID: 0}
-  usePlacementAdjustment: 1
-  arScale: 1
-  autoPlace: 1
-  autoCenter: 0
-  useXRAnchor: 0
-  useDepthSensing: 0
-  useQuicklookExport: 0
-  useDefaultControls: 1
-  showControllerModels: 1
-  showHandModels: 1
-  defaultAvatar: {fileID: 0}
 --- !u!1 &53066233
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,8 +276,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.5764706, g: 0.35453475, b: 0.28627452, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.7830189, g: 0.34343278, b: 0.23268957, a: 1}
+  m_Intensity: 4
   m_Range: 10
   m_SpotAngle: 69.643715
   m_InnerSpotAngle: 21.80208
@@ -713,14 +652,12 @@ Transform:
   - {fileID: 175758460}
   - {fileID: 1237325442}
   - {fileID: 1319072831}
-  - {fileID: 10144872}
   - {fileID: 967157228}
   - {fileID: 1647645837}
   - {fileID: 1559428897}
   - {fileID: 1818885288}
   - {fileID: 203534420}
   - {fileID: 455340342}
-  - {fileID: 1830922557}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1206424029
@@ -952,10 +889,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Needle.Engine.Components.NeedleMenu, Needle.Engine
   _position: 1
   ShowNeedleLogo: 1
-  CreateFullscreenButton: 1
+  CreateFullscreenButton: 0
   CreateMuteButton: 0
-  CreateQRCodeButton: 1
-  ShowSpatialMenu: 1
+  CreateQRCodeButton: 0
+  ShowSpatialMenu: 0
 --- !u!1 &1296487680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,8 +1358,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.28627452, g: 0.51088125, b: 0.5764706, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 0.1459594, g: 0.6148673, b: 0.754717, a: 1}
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 69.643715
   m_InnerSpotAngle: 21.80208
@@ -1514,73 +1451,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!1 &1830922556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1830922557}
-  - component: {fileID: 1830922558}
-  - component: {fileID: 1830922560}
-  m_Layer: 0
-  m_Name: Timeline-AR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1830922557
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830922556}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1050133064}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &1830922558
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830922556}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 71f2bfe68eb3a1c439afb8d74727a7c1, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 1
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 5099921775567655345, guid: 71f2bfe68eb3a1c439afb8d74727a7c1, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 7291612892868902783, guid: 71f2bfe68eb3a1c439afb8d74727a7c1, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!114 &1830922560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830922556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 385d14bf62e962549a8aeb84fdd6bad1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Needle.Engine.Components.XRFlag, Needle.Engine $ GlobalObjectId_V1-2-b9fe30db803400c448a13702599e6e77-1830922560-0
-  VisibleIn: 6
 --- !u!1001 &2026755565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1607,7 +1477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c67a02466e7443449a44c67f90983a45, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0461
+      value: -0.0686
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c67a02466e7443449a44c67f90983a45, type: 3}
       propertyPath: m_LocalPosition.z
